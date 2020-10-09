@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App() { // 함수형 컴포넌트
   return (
     <div className="App">
       <header className="App-header">
