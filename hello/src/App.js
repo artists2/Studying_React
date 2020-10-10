@@ -8,7 +8,7 @@ function App() { // 함수형 컴포넌트
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-           SEX{/*Edit <code>src/App.js</code> and save to reload.*/}
+           SEXY{/*Edit <code>src/App.js</code> and save to reload.*/}
         </p>
         <a
           className="App-link"
