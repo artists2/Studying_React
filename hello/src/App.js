@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Myname from './Myname';
+import Counter from './Counter';
 
 function App() { // 함수형 컴포넌트
   return (
@@ -8,7 +10,11 @@ function App() { // 함수형 컴포넌트
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-           SEXY{/*Edit <code>src/App.js</code> and save to reload.*/}
+           <Myname name = "r00t0k"></Myname>
+           <Myname/>
+        </p>
+        <p>
+          <Counter number></Counter>
         </p>
         <a
           className="App-link"
@@ -22,5 +28,6 @@ function App() { // 함수형 컴포넌트
     </div>
   );
 }
+
 
 export default App;
