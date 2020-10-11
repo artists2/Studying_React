@@ -12,10 +12,11 @@
     - LifeCycle 예 
     - LifeCycle을 이용한 예외처리 / render()내에서 예외처리 방법
 
-
-
 # class_components_exam
 
     - Func형 components 예시 -> Class형 components 예시
 
 # phone-book
+
+    - input예시
+    - 배열 예시
