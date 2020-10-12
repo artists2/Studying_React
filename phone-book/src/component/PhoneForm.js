@@ -13,7 +13,17 @@ class PhoneForm extends Component {
         })
     }
 
+    /* 일반 함수로 작성하면
+    function handleChange2(e) {
+        this.setState({
+            [e.target.name]: e.target.value
+        })
+    }
+    
+    */
+
     handleSubmit = (e) => {
+        console.log(e)
         e.preventDefault();
         this.props.onCreate(this.state);
         this.setState({
